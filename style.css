@@ -531,6 +531,30 @@ a{
     box-shadow: 0 0 20px #a855f755;
 }
 
+/* Restore About section desktop layout */
+@media (min-width: 801px) {
+
+    .about-main {
+        grid-template-columns: 1.15fr 0.85fr;
+        gap: 8%;
+        align-items: center;
+    }
+
+    .about-heading h2 {
+        font-size: clamp(55px, 6vw, 90px);
+        line-height: 1.08;
+        letter-spacing: -4px;
+    }
+
+    .about-heading h2 span {
+        display: inline;
+        white-space: nowrap;
+    }
+
+    .about-description {
+        padding-top: 30px;
+    }
+}
 /* FLOATING ORBIT */
 
 .about-orbit {
