@@ -127,13 +127,13 @@ a{
     color: #aaa5b5;
 }
 
-@media (min-width: 601px) {
+@media (min-width: 801px) {
     .designation {
-        margin-top: 3px;
+        margin-top: 5px;
     }
 
     .hero-description {
-        margin-bottom: 3px;
+        margin-bottom: 5px;
     }
 }
 .portrait-frame {
@@ -531,7 +531,6 @@ a{
     box-shadow: 0 0 20px #a855f755;
 }
 
-/* Restore About section desktop layout */
 @media (min-width: 801px) {
 
     .about-main {
